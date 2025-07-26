@@ -1,0 +1,30 @@
+.section-div {
+background-color: red;
+height: 100vh;
+}
+.section-strong{
+    display: none;}
+    
+@media (max-width:1024px){
+.section-div {
+background-color: blue;}
+}
+
+@media (max-width:834px){
+.section-div {
+background-color: yellow;}
+.love {
+font-style: oblique;}
+}
+
+@media (max-width:768px){
+.section-div {
+background-color: green;}
+.section-strong{
+display: contents;}
+}
+
+@media (max-width:480px){
+.section-div {
+background-color: purple;}
+}
